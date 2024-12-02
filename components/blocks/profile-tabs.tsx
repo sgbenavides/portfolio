@@ -23,9 +23,9 @@ export function ProfileTabs({ experience, education, timeline, freelance, images
 				<TabsTrigger value="purpose">Purpose</TabsTrigger>
 			</TabsList>
 			<TabsContent value="profile" className="">
-				<ResumeList id="work-experience" title="Work Experience" items={experience} />
-				<ResumeList id="freelance-experience" title="Freelance Experience" items={freelance} />
-				<ResumeList id="education" title="Education" items={education} />
+				<ResumeList title="Work Experience" items={experience} />
+				<ResumeList title="Freelance Experience" items={freelance} />
+				<ResumeList title="Education" items={education} />
 			</TabsContent>
 			<TabsContent value="events">
 				<TimelineList items={timeline} />
